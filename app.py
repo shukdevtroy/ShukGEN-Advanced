@@ -1,5 +1,5 @@
 """
-ShukGEN v4 — Premium Gradio Application
+ShukGEN Advanced — Premium Gradio Application
 Identity-Preserving VAE + HD Super Resolution + 8 Style Variants
 """
 
@@ -950,13 +950,13 @@ def build_ui():
             button_secondary_border_color="#ddd5c8",
             button_secondary_text_color="#5a4f47",
         ),
-        title="ShukGEN v4",
+        title="ShukGEN Advanced",
     ) as demo:
 
         # ── HERO ─────────────────────────────────────────────────────────────
         gr.HTML("""
         <div class="shuk-hero">
-            <h1><span>Shuk</span>GEN v4</h1>
+            <h1><span>Shuk</span>GEN Advanced</h1>
             <p class="tagline">Identity-Preserving Face Reconstruction &nbsp;·&nbsp; HD Super Resolution &nbsp;·&nbsp; 8 Style Variants</p>
             <div class="badge-row">
                 <span class="badge">FaceVAE</span>
@@ -1160,7 +1160,7 @@ def build_ui():
 
                     <h2 style="font-family: 'DM Serif Display', serif; font-size: 1.7rem; font-weight: 400;
                                 font-style: italic; color: #2c2520; margin: 0 0 6px;">
-                        ShukGEN v4 Architecture
+                        ShukGEN Advanced Architecture
                     </h2>
                     <p style="color: #8c7f75; font-size: 0.88rem; margin: 0 0 28px;">
                         Identity-Preserving VAE · Super Resolution · Deterministic Style Transforms
@@ -1246,7 +1246,7 @@ def build_ui():
         # ── FOOTER ────────────────────────────────────────────────────────────
         gr.HTML("""
         <div class="footer">
-            <span>ShukGEN v4</span>
+            <span>ShukGEN Advanced</span>
             &nbsp;·&nbsp; Identity-Preserving HD Face Reconstruction
             &nbsp;·&nbsp; VAE + SRHead + StyleTransformBank
             &nbsp;·&nbsp; PyTorch &amp; Gradio
