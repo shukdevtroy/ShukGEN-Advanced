@@ -679,7 +679,7 @@ body, .gradio-container {
 }
 
 .shuk-hero h1 span {
-    color: var(--terracotta);
+    color: var(--terracotta) !important;
 }
 
 .shuk-hero .tagline {
