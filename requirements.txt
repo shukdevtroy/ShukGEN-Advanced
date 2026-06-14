@@ -4,3 +4,4 @@ timm
 scipy 
 pytorch-msssim 
 Pillow
+gradio
